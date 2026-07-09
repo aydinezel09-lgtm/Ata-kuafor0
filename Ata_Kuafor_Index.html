@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ata Kuaför</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#111;color:#fff;line-height:1.6}
+nav{position:fixed;top:0;width:100%;display:flex;justify-content:space-between;align-items:center;padding:15px 30px;background:rgba(0,0,0,.9)}
+nav h2{color:#d4af37}
+nav a{color:#fff;text-decoration:none;margin-left:18px}
+header{min-height:100vh;background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.8)),url('https://images.unsplash.com/photo-1560066984-138dadb4c035') center/cover;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:20px}
+header h1{font-size:60px;color:#d4af37}
+.btn{display:inline-block;margin-top:25px;padding:12px 28px;background:#d4af37;color:#111;text-decoration:none;border-radius:30px;font-weight:bold}
+section{padding:80px 10%}
+h2{text-align:center;color:#d4af37;margin-bottom:30px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#1f1f1f;padding:20px;border-radius:12px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.gallery img{width:100%;height:250px;object-fit:cover;border-radius:12px}
+footer{text-align:center;padding:25px;background:#000;color:#aaa}
+</style>
+</head>
+<body>
+
+<nav>
+<h2>ATA KUAFÖR</h2>
+<div>
+<a href="#about">Hakkımızda</a>
+<a href="#services">Hizmetler</a>
+<a href="#gallery">Galeri</a>
+<a href="#contact">İletişim</a>
+</div>
+</nav>
+
+<header>
+<h1>Ata Kuaför</h1>
+<p>Modern kadın kuaförü • Profesyonel bakım • Premium hizmet</p>
+<a class="btn" href="#contact">Randevu Al</a>
+</header>
+
+<section id="about">
+<h2>Hakkımızda</h2>
+<p>Ata Kuaför olarak Davutlar'da modern saç tasarımı, profesyonel bakım ve özel gün hizmetleri sunuyoruz.</p>
+</section>
+
+<section id="services">
+<h2>Hizmetler & Fiyatlar</h2>
+<div class="cards">
+<div class="card"><h3>Kadın Saç Kesimi</h3><p>₺450</p></div>
+<div class="card"><h3>Fön</h3><p>₺300</p></div>
+<div class="card"><h3>Saç Boyama</h3><p>₺1200</p></div>
+<div class="card"><h3>Ombre / Sombre</h3><p>₺2500</p></div>
+<div class="card"><h3>Keratin Bakımı</h3><p>₺1500</p></div>
+<div class="card"><h3>Manikür</h3><p>₺350</p></div>
+<div class="card"><h3>Pedikür</h3><p>₺450</p></div>
+<div class="card"><h3>Gelin Saçı</h3><p>₺3000</p></div>
+</div>
+</section>
+
+<section id="gallery">
+<h2>Galeri</h2>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e">
+<img src="https://images.unsplash.com/photo-1562322140-8baeececf3df">
+<img src="https://images.unsplash.com/photo-1600948836101-f9ffda59d250">
+<img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f">
+</div>
+</section>
+
+<section id="contact">
+<h2>İletişim</h2>
+<p>📞 0532 456 78 90</p>
+<p>📷 @atakuafor_789</p>
+<p>📍 Davutlar Mahallesi, Sahil Caddesi No:24, Kuşadası / Aydın</p>
+</section>
+
+<footer>© 2026 Ata Kuaför</footer>
+
+</body>
+</html>
